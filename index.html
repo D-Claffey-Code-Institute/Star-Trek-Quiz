@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,47 @@
     <!--Link to Google Fonts-->
     <!--Link to favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon/star-trek-badge-favicon/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="assets/favicon/star-trek-badge-favicon/star-trek-badge-152-203991.png">
+    <link rel="apple-touch-icon-precomposed"
+        href="assets/favicon/star-trek-badge-favicon/star-trek-badge-152-203991.png">
     <!--Link to Stylesheet-->
     <link rel="stylesheet" href="assets/style.css">
     <title>Star Trek Quiz</title>
 </head>
+
 <body>
     <div class="main">
-    <h1>The Star Trek Quiz</h1>
-    <br>
-    <p>
-        Welcome Ensign, Your here today to test your knowledge on the legends that have gone before you!
-    </p>
-    <br>
-    <p>
-        Ten questions that will determine wether your a Jean Lúc or Quark's brother Rom?
-    </p>
-    <br>
-    <p>
-        To begin enter your first name below
-    </p>
-    <br>
-    <form id="form">
-        <label for="username" class="text-input"></label>
-        <input type="text" id="username" max-length="15" placeholder="Whats your name Ensign?" required>
-        <button type="submit" id="button">Begin</button>
-    </form>
+        <h1>The Star Trek Quiz</h1>
+        <br>
+        <p>
+            Welcome Ensign, Your here today to test your knowledge on the legends that have gone before you!
+        </p>
+        <br>
+        <p>
+            Ten questions that will determine your rank in the Federation?
+        </p>
+        <br>
+        <p>
+            To begin enter your first name below
+        </p>
+        <br>
+        <form id="username-form">
+            <label for="username" class="text-input"></label>
+            <input type="text" id="username" max-length="15" placeholder="Whats your name Ensign?" required>
+            <button type="submit" id="button">Begin</button>
+        </form>
+        </div>
+        <br>
+        <div class="quiz-container">
+            <h2>Quiz Heading - Placeholder</h2>
+            <div id="quiz"></div>
+            <div id="result" class="result"></div>
+            <button id="submit" class="button">Submit</button>
+            <button id="retry" class="button hide">Retry</button>
+            <button id="showAnswer" class="button hide">Show Answer</button>
+
+        </div>
     
-    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
