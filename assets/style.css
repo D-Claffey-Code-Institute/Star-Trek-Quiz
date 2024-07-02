@@ -85,3 +85,12 @@ body {
   .hide{
     display: none;
   }
+
+  @media (max-width: 400px) 
+ {
+    body
+    {
+        font-size: 75%; 
+    }
+    
+ }
