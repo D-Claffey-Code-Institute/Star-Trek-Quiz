@@ -141,7 +141,7 @@ function displayResult() {
   submitButton.style.display = 'none';
   retryButton.style.display = 'inline-block';
   showAnswerButton.style.display = 'inline-block';
-  resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!
+  /*resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!
   <br>
   0-2 Cadet
   <br>
@@ -151,9 +151,9 @@ function displayResult() {
   <br>
   9-10 Captain
   `;
-
+**/
   
-  /*
+  
   if (score > 0 && score <= 2 ){
     resultContainer.innerHTML = `Back to the Academy Cadet`;
   } else if (score >=3 && score <= 5){
@@ -163,7 +163,7 @@ function displayResult() {
   } else {
     resultContainer.innerHTML = `Is that you Picard??`;
   };
-  */
+  
 
 }
 
