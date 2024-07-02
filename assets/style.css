@@ -27,15 +27,18 @@ body {
 }
 
 .container {
-    width: 450px;
+   
     padding: 20px;
+    
+    width: 50%;
+    margin: auto;
     margin-top: 80px;
     border: 5px solid whitesmoke;
     color: whitesmoke;
     box-shadow: 0 2px 4px grey;
     border-radius: 20px;
     text-align: center;
-    margin: auto;
+    
   }
   
   h1 {
