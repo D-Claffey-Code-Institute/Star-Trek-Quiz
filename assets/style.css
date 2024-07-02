@@ -30,8 +30,9 @@ body {
     width: 450px;
     padding: 20px;
     margin-top: 80px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 5px solid whitesmoke;
+    color: whitesmoke;
+    box-shadow: 0 2px 4px grey;
     border-radius: 20px;
     text-align: center;
     margin: auto;

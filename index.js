@@ -63,10 +63,14 @@ const resultContainer = document.getElementById('result');
 const submitButton = document.getElementById('submit');
 const retryButton = document.getElementById('retry');
 const showAnswerButton = document.getElementById('showAnswer');
+const mainHeader = document.getElementsByClassName('main');
+const username = document.getElementById('username');
 
 let currentQuestion = 0;
 let score = 0;
 let incorrectAnswers = [];
+
+
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -137,7 +141,30 @@ function displayResult() {
   submitButton.style.display = 'none';
   retryButton.style.display = 'inline-block';
   showAnswerButton.style.display = 'inline-block';
-  resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!`;
+  resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}!
+  <br>
+  0-2 Cadet
+  <br>
+  2-5 Ensign
+  <br>
+  6-8 First Officer
+  <br>
+  9-10 Captain
+  `;
+
+  
+  /*
+  if (score > 0 && score <= 2 ){
+    resultContainer.innerHTML = `Back to the Academy Cadet`;
+  } else if (score >=3 && score <= 5){
+    resultContainer.innerHTML = `Youve got some work to do Ensign`;
+  } else if (score >= 6 && score <= 8){
+    resultContainer.innerHTML = `Very Impressive Number 2`;
+  } else {
+    resultContainer.innerHTML = `Is that you Picard??`;
+  };
+  */
+
 }
 
 function retryQuiz() {
