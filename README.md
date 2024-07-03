@@ -1,6 +1,7 @@
 ### Star Trek Quiz
 
-The Star Trek Quiz is an interactive quiz consisting of 10 questions from the Star Trek Universe
+The Star Trek Quiz is an interactive quiz consisting of 10 questions from the Star Trek Universe.
+[Live Site](https://d-claffey-code-institute.github.io/Star-Trek-Quiz/)
 
 ## CONTENT LINKS
 
@@ -52,7 +53,8 @@ Here is the link https://fonts.google.com/specimen/Raleway
 
 ### Wire frames
 
-wire frames with pics-------------add pics to assets then import here---------------------------------
+Wire Frames are made using Balsamiq and shown here.
+[Wireframe](assets/readme/wireframe.png)
 
 ## Features
 
@@ -61,20 +63,14 @@ wire frames with pics-------------add pics to assets then import here-----------
 The website is fully responsonsive on all screen sizes
 
 
-
-### Error Message
-add this to full site ----------------------------------------------------
-
-
-
 ### Future Features
-add future features --------------------------------------------------------------
+In the future i would like to add differnet quizes for the differeseries of Star Trek.
 
 ## Technologies used
 
 ### Languages
 
-<li>HTML 5</li>
+<li>HTML</li>
 <li>CSS</li>
 <li>Javascript</li>
 
@@ -97,8 +93,6 @@ I used Balsamiq to create the wireframe for my project.
 
 ### Code Validation
 
-edit all of this below -----------------------------------------------------------
-
 I used W3C Jigsaw to validate the CSS, which came back with no errors
 
 I used W3C Markup to validate the HTML file, which returned no errors.
@@ -118,7 +112,7 @@ Mobile:
 
 
 #### Unsolved Bugs:
-None
+Site shows a white border on the bottom of the screen on Am I Responsive, this doesnt show in Dev Tools on Chrome.
 
 
 ## Deployment
@@ -129,12 +123,10 @@ Here are the following steps I used to deploy the website from Github repository
 1. Log in to Github and find the repository you wish to deploy.
 2. At the top of the page, click on "Settings".
 3. On the left hand side of the settings page, under Code and automation, click on "Pages".
-4. From the source section drop-down menu, select the Master Branch.
-5. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+4. From the source section drop-down menu, select the Main Branch.
+5. Click Save.
 
 
-
-The live link can be found here:
 
 ## Credits
 ### Content
