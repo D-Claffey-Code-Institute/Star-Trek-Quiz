@@ -24,7 +24,7 @@ The Star Trek Quiz is an interactive quiz consisting of 10 questions from the St
 
 - [Code validation](#code-validation)
 - [Accessability](#accessability)
-- [Testing Table](#testing-table)
+
 
 ## User Experience
 
@@ -110,46 +110,17 @@ I used JSHint to validate the javascript code, which resulted in no errors
 
 To check the sites accessibility, I used Lighthouse in Dev Tools
 
-Rules Page:
-![Lighthouse Rules Page](assets/readme-files/lighthouse-rules-page.png)
+Desktop:
+![Lighthouse Desktop Page](assets/readme/lighthouse-desktop.png)
 
-Main Page:
-![Lighthouse Main Page](assets/readme-files/lighthouse-main-page.png)
+Mobile:
+![Lighthouse Mobile Page](assets/readme/lighthouse-mobile.png)
 
-### Browser Testing
-
-edit all this below -----------------------------------------------------------
-
-To make the site responsive on all devices, I used Media queries. I started the development of the code on large screen devices which I quickly realised was wrong and changed to developing it with a "mobile first" approach, specifically The Galaxy Fold, whose screen size is 344 x 882px.
-
-I had some issues with the length of the questions rendering properly as I used an image for the question container. To remedy this, I played back and forth with padding in dev tools and in two instances, I just had to re-write the question to make it shorter.
 
 #### Unsolved Bugs:
-if any add here ----------------------------------------------------
+None
 
-### Testing Table
 
-edit all below ------------------------------------------------------------
-
-| Feature:               | Expected outcome:                                                 | Pass/Fail: |
-| :--------------------- | :---------------------------------------------------------------- | :--------- |
-| Url address            | Landing/Rules Page                                                | Pass       |
-| Rules Page             | Rules font is clear and legible                                   | Pass       |
-| Begin Quiz Button      | Moves onto main landing page                                      | Pass       |
-| Quiz Page              | 1st question renders                                              | Pass       |
-| Quiz Page              | 4 possible answers to 1st q renders                               | Pass       |
-| Shuffle Questions      | Each new round should have questions asked in a different order | Pass       |
-| Answer Buttons Hovered | Change to color purple when hovered over                          | Pass       |
-| Answer Button clicked  | Only allowed to click one answer                                  | Pass       |
-| Wrong Answer           | Button turns red when wrong ans selected                          | Pass       |
-| Correct Answer         | Button turns green to show correct answer                         | Pass       |
-| Next Button clicked    | Question and answer options change                                | Pass       |
-| Score Board            | Correct answers are tallied up and shown on score board           | Pass       |
-| Media Player mute      | Media player is muted until user interaction with controls        | Pass       |
-| Media Player play      | Theme tune plays at user set volume                               | Pass       |
-| End Game popup         | Quiz Completed message                                            | Pass       |
-| Next Game              | when questions reach 10, restart game                             | Pass       |
-| Play Again             | Next Button changes to Play Again when game complete              | Pass       |
 ## Deployment
 I used Gitpod to develop the code and then pushed to Github.
 
