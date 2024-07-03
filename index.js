@@ -1,8 +1,3 @@
-
-
-
-
-
 /* Questions and Answers*/
 
 const quizData = [
@@ -71,7 +66,7 @@ let score = 0;
 let incorrectAnswers = [];
 
 
-
+// Function to shuffle the questions after each try  
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -79,6 +74,7 @@ function shuffleArray(array) {
   }
 }
 
+// Function that displays the questions to a div on the page
 function displayQuestion() {
   const questionData = quizData[currentQuestion];
 
@@ -112,7 +108,8 @@ function displayQuestion() {
   quizContainer.appendChild(questionElement);
   quizContainer.appendChild(optionsElement);
 }
-
+ 
+//Function that checks the answers are correct and adds to the users score if true
 function checkAnswer() {
   const selectedOption = document.querySelector('input[name="quiz"]:checked');
   if (selectedOption) {
@@ -135,7 +132,9 @@ function checkAnswer() {
     }
   }
 }
-
+ 
+// Function that displays the results at the end of the quiz ad gives the user a messaage with
+// Their score
 function displayResult() {
   quizContainer.style.display = 'none';
   submitButton.style.display = 'none';
@@ -154,6 +153,7 @@ function displayResult() {
 
 }
 
+//Function to retry the quiz once completed
 function retryQuiz() {
   currentQuestion = 0;
   score = 0;
@@ -166,6 +166,7 @@ function retryQuiz() {
   displayQuestion();
 }
 
+//Function that shows the answers to the questions they got wrong
 function showAnswer() {
   quizContainer.style.display = 'none';
   submitButton.style.display = 'none';

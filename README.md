@@ -54,7 +54,7 @@ Here is the link https://fonts.google.com/specimen/Raleway
 ### Wire frames
 
 Wire Frames are made using Balsamiq and shown here.
-[Wireframe](assets/readme/wireframe.png)
+assets/readme/wireframe.png
 
 ## Features
 
@@ -87,6 +87,7 @@ I used Github to store my project and to deploy it.
 I used the Am I responsive website to give a screenshot of how my site looks on various screen sizes. 
 #### Balsamiq
 I used Balsamiq to create the wireframe for my project.
+
 
 ## Testing
 
