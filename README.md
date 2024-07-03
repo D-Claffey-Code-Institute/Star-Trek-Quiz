@@ -88,7 +88,7 @@ For my Favicon, I used a Star Trek favicon from https://freefavicon.com/freefavi
 #### Github
 I used Github to store my project and to deploy it.
 #### Am I Responsive
-I used the Am I responsive website to give a screenshot of how my site looks on various screen sizes. [See here](#friends-quiz)
+I used the Am I responsive website to give a screenshot of how my site looks on various screen sizes. 
 #### Balsamiq
 I used Balsamiq to create the wireframe for my project.
 
@@ -132,10 +132,10 @@ Here are the following steps I used to deploy the website from Github repository
 4. From the source section drop-down menu, select the Master Branch.
 5. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-edit all below ------------------------------------------------------------
+
 
 The live link can be found here:
-[Friends Quiz](https://rdeswart.github.io/friends-quiz/)
+
 ## Credits
 ### Content
 The wireframe was created using [Balsamiq](https://balsamiq.com/)

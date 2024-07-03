@@ -12,8 +12,10 @@ body {
 
   font-family: "Raleway", sans-serif;
   background-image: url(images/starry-background1.webp);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100%;
 }
 
 .main {
